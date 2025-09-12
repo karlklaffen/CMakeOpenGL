@@ -1,0 +1,192 @@
+{
+    "I_SCENE": {
+        "cursor mode": "DISABLED",
+        "textures": {
+            "widget": {
+                "name": "SCENE_WIDGETS"
+            }
+        },
+        "widgets": [
+            {
+                "name": "W_CROSSHAIR",
+                "parameters": {
+                    "function": "NONE",
+                    "anchor": {
+                        "x": "CENTER",
+                        "y": "CENTER"
+                    },
+                    "transformation": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 16,
+                        "height": 16
+                    },
+                    "texture sources": [
+                        {
+                            "name": "NORMAL",
+                            "x": 0,
+                            "y": 0,
+                            "width": 16,
+                            "height": 16
+                        }
+                    ],
+                    "initial source name": "NORMAL"
+                }
+            }
+        ],
+        "texts": [
+            {
+                "name": "T_INFO",
+                "parameters": {
+                    "font": "ANTONIO_BOLD",
+                    "string": "ABCDEFG",
+                    "color": [ 1.0, 1.0, 1.0 ],
+                    "anchor": {
+                        "x": "LEFT",
+                        "y": "BOTTOM"
+                    },
+                    "pos": [ 10, 10 ],
+                    "scale": 1.0,
+                    "line spacing": 10
+                }
+            }
+        ]
+    },
+    "I_PAUSE": {
+        "cursor mode": "NORMAL",
+        "textures": {
+            "widget": {
+                "name": "PAUSE_WIDGETS"
+            },
+            "background": {
+                "name": "TEST_BACKGROUND",
+                "warp": false
+            }
+        },
+        "widgets": [
+            {
+                "name": "W_UNPAUSE",
+                "parameters": {
+                    "function": "F_UNPAUSE",
+                    "anchor": {
+                        "x": "CENTER",
+                        "y": "CENTER"
+                    },
+                    "transformation": {
+                        "x": 0,
+                        "y": 128,
+                        "width": 256,
+                        "height": 128
+                    },
+                    "texture sources": [
+                        {
+                            "name": "UNHOVER",
+                            "x": 0,
+                            "y": 16,
+                            "width": 32,
+                            "height": 16
+                        },
+                        {
+                            "name": "HOVER",
+                            "x": 0,
+                            "y": 48,
+                            "width": 32,
+                            "height": 16
+                        },
+                        {
+                            "name": "PRESS",
+                            "x": 0,
+                            "y": 80,
+                            "width": 32,
+                            "height": 16
+                        }
+                    ],
+                    "initial source name": "UNHOVER"
+                }
+            },
+            {
+                "name": "W_QUIT",
+                "parameters": {
+                    "function": "F_QUIT",
+                    "anchor": {
+                        "x": "CENTER",
+                        "y": "CENTER"
+                    },
+                    "transformation": {
+                        "x": 0,
+                        "y": -128,
+                        "width": 256,
+                        "height": 128
+                    },
+                    "texture sources": [
+                        {
+                            "name": "UNHOVER",
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 16
+                        },
+                        {
+                            "name": "HOVER",
+                            "x": 0,
+                            "y": 32,
+                            "width": 32,
+                            "height": 16
+                        },
+                        {
+                            "name": "PRESS",
+                            "x": 0,
+                            "y": 64,
+                            "width": 32,
+                            "height": 16
+                        }
+                    ],
+                    "initial source name": "UNHOVER"
+                }
+            }
+        ],
+        "texts": [
+            {
+                "name": "T_TEST",
+                "parameters": {
+                    "font": "ANTONIO_BOLD",
+                    "string": "\nABCD\nEFGHIJKLMNO\n",
+                    "color": [ 1.0, 1.0, 1.0 ],
+                    "anchor": {
+                        "x": "LEFT",
+                        "y": "BOTTOM"
+                    },
+                    "pos": [ 10, 10 ],
+                    "scale": 1.0,
+                    "line spacing": 10,
+                    "bounding": {
+                        "width": "AUTO",
+                        "height": "AUTO"
+                    }
+                }
+            }
+        ],
+        "fields": [
+            {
+                "name": "TF_TEST",
+                "parameters": {
+                    "reference": "T_TEST",
+                    "cursor": {
+                        "movable": true,
+                        "blink hold time": 0.5
+                    },
+                    //"max chars": 10,
+                    "text cursor mode": "UNDERSCORE"
+                }
+            }
+        ]
+    }
+    //"I_LOADING": {
+    //    "cursor mode": "NORMAL",
+    //    "textures": {
+    //        "background": {
+    //            "name": "LOADING"
+    //        }
+    //    }
+    //}
+}

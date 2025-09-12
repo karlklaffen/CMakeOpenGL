@@ -1,0 +1,34 @@
+{
+    "MODEL": {
+        "vertex": "ModelVertexShader.vert",
+        "fragment": "ModelFragmentShader.frag"
+    },
+    "TEXT": {
+        "vertex": "ProjTexVertexShader.vert",
+        "fragment": "TextFragmentShader.frag"
+    },
+    "SKYBOX": {
+        "vertex": "CubemapVertexShader.vert",
+        "fragment": "CubemapFragmentShader.frag"
+    },
+    "FRAME": {
+        "vertex": "FrameVertexShader.vert",
+        "fragment": "FrameFragmentShader.frag"
+    },
+    "OUTLINE": {
+        "vertex": "ExpandVertexShader.vert",
+        "fragment": "ColorFragmentShader.frag"
+    },
+    "UI": {
+        "vertex": "ProjTexVertexShader.vert",
+        "fragment": "TexFragmentShader.frag"
+    },
+    "PBR": {
+        "vertex": "PBRVertexShader.vert",
+        "fragment": "PBRFragmentShader.frag"
+    },
+    "COLOR": {
+        "vertex": "ProjPosVertexShader.vert",
+        "fragment": "ColorFragmentShader.frag"
+    }
+}

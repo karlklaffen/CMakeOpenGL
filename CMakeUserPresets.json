@@ -1,0 +1,12 @@
+{
+    "version": 2, //3
+    "configurePresets": [
+        {
+            "name": "default",
+            "inherits": "vcpkg",
+            "environment": {
+                "VCPKG_ROOT": "C:/code/vcpkg"
+            }
+        }
+    ]
+}

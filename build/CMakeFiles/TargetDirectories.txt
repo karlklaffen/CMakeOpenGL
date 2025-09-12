@@ -1,0 +1,3 @@
+C:/Users/karlk/source/repos/CMakeOpenGL/build/CMakeFiles/CMakeOpenGL.dir
+C:/Users/karlk/source/repos/CMakeOpenGL/build/CMakeFiles/edit_cache.dir
+C:/Users/karlk/source/repos/CMakeOpenGL/build/CMakeFiles/rebuild_cache.dir

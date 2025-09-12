@@ -1,0 +1,28 @@
+{
+    "DUCK": {
+        "source": "duck.png"
+    },
+    "OWL": {
+        "source": "owl.jpg"
+    },
+    "SCENE_WIDGETS": {
+        "source": "ui_scene.png",
+        "filters": {
+            "min": "LINEAR_MIPMAP_LINEAR",
+            "mag": "NEAREST"
+        }
+    },
+    "PAUSE_WIDGETS": {
+        "source": "pause_widgets.png",
+        "filters": {
+            "min": "LINEAR_MIPMAP_LINEAR",
+            "mag": "NEAREST"
+        }
+    },
+    "LOADING": {
+        "source": "Loading.png"
+    },
+    "TEST_BACKGROUND": {
+        "source": "testbackground.png"
+    }
+}

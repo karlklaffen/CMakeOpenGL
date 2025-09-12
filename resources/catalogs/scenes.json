@@ -1,0 +1,41 @@
+{
+    "S_LAKE": {
+        "lighting": "PBR",
+        "fog": false,
+        "background": [ 0.0, 0.0, 0.0 ],
+        "lights": [
+            {
+                "pos": [ 0.0, 0.0, 0.0 ],
+                "color": [ 100.0, 100.0, 100.0 ]
+            }
+        ],
+        "cameras": [
+            {
+                "pos": [ 0.0, 0.0, 0.0],
+                "yaw": 0.0,
+                "pitch": 0.0,
+                "fov": 45.0
+            }
+        ],
+        "objects": [
+            //{
+            //    "name": "ABCD",
+            //    "model": "UTILITY_BOX",
+            //    "transform": {
+            //        "translation": [ 0.0, 0.0, 0.0 ],
+            //        "rotation": {
+            //            "vector": [ 1.0, 0.0, 0.0 ],
+            //            "angle": 90.0
+            //        },
+            //        "scale": [ 2.0, 2.0, 2.0 ]
+            //    }
+            //    //"outlining": {
+            //    //    "stroke width": 5.0
+            //    //}
+            //}
+        ],
+        "skyboxes": [
+            "LAKE"
+        ]
+    }
+}
